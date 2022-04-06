@@ -73,9 +73,31 @@ button:active {
 
 /*Some random info */
 .info {
-  background-color: white;
+  margin: 0;
+  padding: 50px 100px;
+}
+h2 {
+  margin: 0;
+  padding-bottom: 40px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100px;
+}
+/*Quote section */
 .quote {
   background-color: #e5e7eb;
 }
