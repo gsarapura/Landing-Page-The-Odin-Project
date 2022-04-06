@@ -31,17 +31,42 @@ a {
 
 .hero {
   margin-top: 50px;
-  padding: 0 100px;
+  padding: 0 100px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
-.title-subtext {
-  width: 400px;
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 18px 0;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 18px;
 }
 button {
   background-color: #3882f6;
+  border: 1px solid #3882f6;
+  padding: 10px;
   color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
 }
+
+button:hover {
+  background-color: rgba(113, 130, 226, 0.952);
+}
+button:active {
+  color: black;
+  background-color: rgba(241, 241, 241, 0.623);
+}
+
 #laptop {
   width: 400px;
 }
