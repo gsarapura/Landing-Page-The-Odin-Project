@@ -87,15 +87,16 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
+  gap: 35px;
 }
-
 figure {
   margin: 0;
+  width: 200px;
 }
-
 figure img {
   width: 100px;
 }
+
 /*Quote section */
 .quote {
   background-color: #e5e7eb;
