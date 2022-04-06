@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.start {
+/*First section*/
+.home {
   background-color: #1f2937;
   color: white;
 }
@@ -29,16 +29,28 @@ a {
   color: white;
 }
 
-.first {
+.hero {
   margin-top: 50px;
   padding: 0 100px;
   display: flex;
   justify-content: space-between;
 }
-.title-sub {
+.title-subtext {
+  width: 400px;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+}
+#laptop {
   width: 400px;
 }
 
-#laptop {
-  width: 400px;
+/*Some random info */
+.info {
+  background-color: white;
+}
+
+.quote {
+  background-color: #e5e7eb;
 }
