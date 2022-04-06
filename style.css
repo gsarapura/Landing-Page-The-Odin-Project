@@ -142,3 +142,12 @@ figure img {
   border: 1px solid white;
   align-self: center;
 }
+
+/*Footer section*/
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #fff;
+  margin: 0;
+  padding: 40px 0;
+}
